@@ -287,7 +287,7 @@ features = ['radius_mean', 'texture_mean', 'perimeter_mean',
        'compactness_worst', 'concavity_worst', 'concave points_worst',
        'symmetry_worst', 'fractal_dimension_worst']
 
-#boxplot
+#Boxplot
 # y includes our labels and x includes our features
 y = data.diagnosis
 x = data.drop('diagnosis',axis = 1)
