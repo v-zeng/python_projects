@@ -17,7 +17,7 @@ def getFilePath():
 
 # main menu message
 def mainMenuMessage():
-    print("Main Menu\n*************************************************") # make this fancier later
+    print("Main Menu\n*************************************************")
     print(
         "   1. Add patient\n"
         "   2. Transfer Patient\n"
